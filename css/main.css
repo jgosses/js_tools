@@ -1,0 +1,36 @@
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 64em;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+.one {
+    background-color: salmon;
+    height: 2em;
+    width: 5em;
+    border-style: double;
+    margin: 15px;
+    list-style-type: none;
+}
+
+.hello {
+    height: 20em;
+    width: 100%;
+    background-color: grey;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
