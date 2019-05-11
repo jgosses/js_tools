@@ -1,0 +1,22 @@
+{
+  "name": "js_tools",
+  "version": "1.0.0",
+  "description": "A package to support all the projects held within",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgosses/js_tools.git"
+  },
+  "author": "Jimmy Gosses",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgosses/js_tools/issues"
+  },
+  "homepage": "https://github.com/jgosses/js_tools#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
