@@ -6,7 +6,11 @@ var browserSync = require('browser-sync').create();
 
 function fireUp(cb) {
     browserSync.init({
-        server: true
+//        server: true //this option in itself works too
+        server: {
+            baseDir : "./" //both of these options work
+            //proxy: "yourlocal.dev" //both of these options work
+        }
     })
     cb();
 }
@@ -17,12 +21,12 @@ function reload(done) {
 }
 
 function html1(cb) {
-    watch('**/*.html', reload);
+    watch(['**/*.html', 'pages/**/*.html'], reload);
     cb();
 }
 
 function css1(cb) {
-    watch('css/*.css', reload);
+    watch('pages**/*.css', reload);
     cb();
 }
 
