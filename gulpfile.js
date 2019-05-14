@@ -31,7 +31,7 @@ function css1(cb) {
 }
 
 function javascript1(cb) {
-    watch('**/*.js', reload);
+    watch('pages/**/*.js', reload);
     cb();
 }
 

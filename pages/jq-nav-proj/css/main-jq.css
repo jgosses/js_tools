@@ -34,3 +34,7 @@ main {
     align-items: center;
     height: 100%;
 }
+
+.wow {
+    background-color: blue;
+}
