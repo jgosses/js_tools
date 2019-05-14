@@ -26,12 +26,12 @@ function html1(cb) {
 }
 
 function css1(cb) {
-    watch('pages**/*.css', reload);
+    watch('pages/**/*.css', reload);
     cb();
 }
 
 function javascript1(cb) {
-    watch('js/*.js', reload);
+    watch('**/*.js', reload);
     cb();
 }
 
