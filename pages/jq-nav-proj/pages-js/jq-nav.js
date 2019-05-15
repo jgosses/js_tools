@@ -10,6 +10,7 @@ $('.menu-click').on('click', function() {
     $('li:lt(5)').toggle();
     //replace hamburger icon with x using z-index
     $('.menu-imgclose').toggle();
-    $('.menu-img').toggle();
+    $('.menu-img').toggle()
+    $('.main-title').toggle();
 });
 
